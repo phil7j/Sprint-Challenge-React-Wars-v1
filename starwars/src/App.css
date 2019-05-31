@@ -4,7 +4,7 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 /* write your parent styles in here for your App.js */
 
@@ -31,10 +31,19 @@ li {
   width: 200px;
   background: #443e3ec4;
   color: white;
-  transition: background 400ms ease, border-radius 400ms ease;
+  transition: background 400ms ease, border-radius 400ms ease, box-shadow 400ms ease;
 }
 
 li:hover {
   background: rgba(51, 51, 51, 0.932);
-  border-radius: 25px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 298px 65px rgba(0, 0, 0, 0.74);
+}
+
+li h2 {
+  font-size: 1.5rem;
+}
+
+li p {
+  font-size: .7rem;
 }

@@ -9,13 +9,9 @@ export class List extends Component {
                 <ul>
                 {this.props.data.map( (item,index) =>
                     (<Item key={index} data={item} />) )}
-
                 </ul>
-
             </div>
-
-        )
-
+            )
     }
 }
 
