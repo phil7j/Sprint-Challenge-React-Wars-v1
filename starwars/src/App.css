@@ -4,5 +4,37 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 3rem;
 }
 /* write your parent styles in here for your App.js */
+
+ul {
+  list-style-type: none;
+}
+
+.list {
+  margin: auto;
+  width: 65%;
+}
+
+.list ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: space-around; */
+}
+
+li {
+  padding: 10px;
+  border: 2px solid rgba(180, 180, 180, 0.582);
+  margin: 10px;
+  width: 200px;
+  background: #443e3ec4;
+  color: white;
+  transition: background 400ms ease, border-radius 400ms ease;
+}
+
+li:hover {
+  background: rgba(51, 51, 51, 0.932);
+  border-radius: 25px;
+}
