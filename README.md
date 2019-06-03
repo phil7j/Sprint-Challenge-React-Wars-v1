@@ -26,11 +26,22 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+Today in 2019, React is the most popular UI library. React helps developers build small reusable pieces of UI that can be put together so you can more easier make larger applications. It was built by Facebook because they needed a way to manage their massive application that was dynamic with so much different information.
+
+
 - [ ] What does it mean to _think_ in react?
+
+It means to think in the way you would create a react app. When making a react app you need to be able to think how you can break it down into different components. Then you have to think about where you want to store the state or the dynamic data.
+
 
 - [ ] Describe state.
 
+The state of a React App is where React becomes powerful. It is basically used as storage point for data in your app. This makes the app powerful because it can read and update data as well as delete it.
+
+
 - [ ] Describe props.
+
+Props are a way for React to communicate it's state(or data) to other components. They are passed in as attributes to the JSX components on the Parent, and the Child then references it as props. When implemented correctly, the Child can then use the data of the Parent as if it was its now.
 
 ## Project Set Up
 
